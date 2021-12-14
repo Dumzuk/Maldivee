@@ -1,0 +1,508 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(bakgroand.webp);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    list-style-type: none;
+    float: right;
+    margin-top: 25px;
+}
+ul li{
+    display: inline-block;
+}
+ul li.active a{
+    background-color: #fff;
+    color: black;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.8s ease;
+}
+ul li a:hover{
+    background-color: #fff;
+    color: black;
+}
+.logoo img{
+    float: left;
+    width: 150px;
+    height: auto;
+    
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title h1{
+   color: #fff;
+   font-size: 70px;
+}
+.button{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.btn{
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.8s ease;
+}
+.btn:hover{
+    background-color: #fff;
+    color: black;
+}
+
+.carousel{
+    height: 500px;
+}
+.carousel .carousel-item{
+    width: 400px;
+}
+.contact{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+}
+.contact .content{
+    max-width: 800px;
+    text-align: center;
+}
+.contact .content h2{
+    font-size: 36px;
+    font-weight: 500;
+    color: #fff;
+}
+.content p{
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.container .contactInfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.container .contactInfo .box{
+position: relative;
+padding: 20px 0;
+display: flex;
+}
+.container .contactInfo .box .icon{
+    min-width: 60px;
+    height: 60px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+}
+.container .contactInfo .box .text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #fff;
+    flex-direction: column;
+    font-weight: 300;
+}
+.container .contactInfo .box .text h3{
+    font-weight: 500;
+    color: #00bcd4;
+}
+
+.contactForm{
+    width: 40%;
+    padding: 40px;
+    background: #fff;
+}
+.contactForm h2{
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+}
+.contactForm.inputBox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+.contactForm .inputBox input
+.contactForm .inputBox  textarea{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+}
+.contactForm .inputBox span{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+}
+.contactForm .inputBox input:focus ~ span,
+.contactForm .inputBox input:valid ~ span
+.contactForm .inputBox textarea:focus ~ span,
+.contactForm .inputBox textarea:valid ~ span{
+color: #e91e63;
+font-size: 12px;
+transform: translate(-20px);
+}
+.contactForm .inputBox input[type="submit"]{
+    width: 100px;
+    background: #00bcd4;
+    color: #fff;
+    border:  none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+@media (max-width: 991px){
+    .contact{
+        padding: 50px;
+    }
+    .container{
+        flex-direction: column;
+    }
+    .container .contactInfo{
+        width: 100%;
+    }
+}
+.titleH1{
+   text-align: center;
+   font-size: 16px;
+   color: #fff;
+  
+  
+}
+.hotel1{
+    margin-top: 100px;
+    margin-left: 70px;
+}
+
+
+.hotel a{
+    margin-left: 7%;
+    color: rgb(255, 255, 255);
+    padding:40px;
+   
+    
+}
+.hotel{
+    margin-top: 10px;
+    float: left;
+    margin-left: 6%;
+}
+  .href{
+    margin-left: 213px;
+    color: rgb(153, 37, 37);
+    border:  none;
+    text-decoration: none;
+    transition: 0.5s;
+    padding: 10px 30px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    transition: 0.8s ease;
+    font-size: 16px;
+    
+}
+.titleeH1{
+    margin-top: 1100px;
+    text-align: center;
+   font-size: 16px;
+   color: #fff;
+
+}
+.hotell{
+    margin-top: 10px;
+    float: left;
+    margin-left: 6%;
+   
+}
+.hotell a{
+    margin-left: 2%;
+    color: rgb(255, 255, 255);
+    padding:40px;
+  
+   
+    
+}
+strong{
+    color: #fff;
+    margin-left: 40%;
+    font-size: 16px;
+  
+}
+.textp{
+    color: #fff;
+  text-align: center;
+  font-size: 16px;
+}
+.cookie-container{
+    position: fixed;
+    bottom: -100%;
+    left: 0;
+    right: 0;
+    background: #2f3640;
+    color: #f5f6fa;
+    padding: 0 32px;
+    box-shadow: 0 -2px 16px rgba(47, 54, 64, 0.322) ;
+   transition: 400ms;
+}
+.cookie-container.active{
+    bottom: 0;
+}
+.cookie-container a{
+    color: #f5f6fa;
+}
+.cookie-container p{
+   color: #f5f6fa;
+   
+}
+.cookie-button{
+    background-color: #e84118;
+    border: 0;
+    color: #f5f6fa;
+    padding: 12px 48px;
+    font-size: 18px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.about{
+  width: 100%;
+  padding: 78px 0px;
+  background-color: #191919;  
+}
+.about img{
+    height: auto;
+    width: 420px;
+}
+.about-text{
+    width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h1{
+    color: #fff;
+    font-size: 80px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-text h5{
+    color: #fff;
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+}
+span{
+    color: #f9004d;
+}
+.about-text p{
+    color: #fcfc;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+button{
+    background: #f9004d;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+button:hover{
+    background: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+}
+/*-----------------------------footer------------------------------------------*/
+.inner-footer{
+    margin: 0;
+    padding: 0;
+    background-color: #262626;
+}
+.social-links{
+    display: flex;
+}
+.social-links ul{
+    display: flex;
+    width: 300px;
+    height: 30px;
+    margin: auto;
+    padding: 10px;
+}
+.social-items{
+    list-style: none;
+}
+.social-items a{
+    padding: 10px 20px;
+    font-size: 35px;
+    color: #6cccc6;
+    transition: all .25s;
+}
+.social-items a:hover{
+    color: black;
+    transition: all .25s;
+}
+.quick-links{
+    display: flex;
+    width: 560px;
+    height: 70px;
+    margin: auto;
+}
+.quick-links ul{
+    display: flex;
+    margin: auto;
+}
+.quick-items{
+    list-style: none;
+}
+.quick-items a{
+    text-decoration: none;
+    padding: 0px 15px;
+    font-size: 18px;
+    color: #fff; 
+    transition: all .25s;
+}
+.quick-items a:hover{
+    color: #000000;
+}
+.outer-footer{
+    padding: 15px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: #262626;
+}
+/*---------------------------------------------------------------------*/
+/*-------------------------cokie---------------------------*/
+.wrapper{
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    background: #fff;
+    max-width: 365px;
+    border-radius: 15px;
+    text-align: center;
+    padding: 25px 25px 30px 25px;
+}
+.wrapper img{
+    max-width: 90px;
+
+}
+.wrapper .content{
+    margin-top: 10px;
+}
+.wrapper.hide{
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+}
+.content header{
+    font-size: 25px;
+    font-weight: 600;
+}
+.content p{
+    color: #000000;
+    margin: 5px 0 20px 0;
+}
+.contentt{
+    color: #ffffff;
+    margin: 5px 0 20px 0;
+}
+.content .buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buttons .item{
+    margin:  0 10px;
+}
+.buttons button{
+    padding: 10px 20px;
+    background: #a85914;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.buttons a{
+    color: #000000;
+}
+/*--------------------scrolltop-----------------*/
+.scrollTop{
+    
+    position: fixed;
+    bottom: 800px;
+    right: 40px;
+    width: 60px;
+    height: 60px;
+    background: #fff url(scroll.png);
+    border-radius: 50%;
+    background-size: 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    z-index: 100000;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+
+}
+.scrollTop.active
+{
+    bottom: 40px;
+    visibility: visible;
+    opacity: 1;
+}
